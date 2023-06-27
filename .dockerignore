@@ -1,0 +1,14 @@
+# Git
+.Git.gitignorfe
+
+#Docker
+.docker
+
+#Python : on spécifie les __pycache__ qui sont des fichiers créés par python qui peuvent être liés au python présent dans le système d'exploitation de base dans la machine hôte et peut donc entrer en conflit avec notre version de python à la base de notre image
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
